@@ -24,4 +24,5 @@ export class OrbitReportComponent implements OnInit {
        return 0;
     });
  }
+  
 }
