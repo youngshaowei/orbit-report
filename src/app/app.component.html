@@ -1,4 +1,7 @@
 <!--The content below is only a placeholder and can be replaced.-->
 <h1>{{title}}</h1>
 <app-orbit-report [satellites]="sourceList"></app-orbit-report>
-
+<div class="search-form">
+    <input (keyup.enter)="search(searchTerm.value)">
+    <button (click)="search(searchTerm.value)"></button>
+</div>
